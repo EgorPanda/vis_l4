@@ -3,7 +3,7 @@ name: node_app
 on:
     push:
         branches:
-            - "main"
+            - "master"
 jobs:
     build:
         name: Build Docker image
